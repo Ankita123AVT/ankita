@@ -10,8 +10,6 @@ public class homepage
 	@FindBy(xpath="//a[@href='/user/watchlist/stocks']")private WebElement MyWatchlist ;	
 	@FindBy(xpath="//img[@class='circle']")private WebElement circle ;
 	@FindBy(xpath="//div[text()='Log Out']")private WebElement logout ;	
-	@FindBy(xpath="//div[text()='Log Out']")private WebElement logout125 ;
-	@FindBy(xpath="//div[text()='Log Out']")private WebElement logoutanku ;
 		
 	public homepage(WebDriver driver) 
 	{
